@@ -1,0 +1,25 @@
+{
+  "name": "rabby-adspower",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node ./index.ts",
+    "serve": "npm run start",
+    "dev": "nodemon ./index.ts --ignore '*.json'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.9.2",
+    "axios": "^1.6.2",
+    "chalk": "4",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.0.1",
+    "playwright": "^1.40.0",
+    "typescript": "^5.3.2"
+  }
+}
